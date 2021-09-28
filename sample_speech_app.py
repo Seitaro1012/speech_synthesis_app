@@ -6,7 +6,7 @@ import streamlit as st
 
 from google.cloud import texttospeech
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = st.secrets["KEY"]
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]
 
 
 def synthesize_speech(text, lang='日本語', gender='defalut'):
